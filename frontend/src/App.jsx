@@ -441,8 +441,8 @@ function App() {
 
             <div className="hero-image">
               <img
-                src="/cup.jpg"
-                alt="Jappie Coffee Shop"
+                src="/images/cup.jpg" 
+                alt="Coffee Shop"
                 onError={handleImageError}
               />
               <div className="image-placeholder" style={{ display: "none" }}>
