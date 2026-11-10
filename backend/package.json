@@ -1,0 +1,17 @@
+{
+  "name": "jappie-coffee-backend",
+  "version": "1.0.0",
+  "description": "Jappie Coffee Shop Management System Backend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
